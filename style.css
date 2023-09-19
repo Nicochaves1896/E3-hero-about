@@ -1,0 +1,176 @@
+/* Font letra*/
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  background-color: rgb(167, 184, 223);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Poppins";
+  }
+  
+  .header {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 40px;
+    height: 75px;
+    */TODO*/
+    
+  }
+
+  .navbar{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+  }
+.navbar-list{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.navbar-list a{
+  color: black;
+  font-weight: 600;
+
+}
+.logo{
+  width: 50px;
+  height: 50px;
+
+}
+.carrito{
+  height: 50px;
+  cursor: pointer;
+}
+
+/*HERO*/
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  #hero{
+    margin-top: 75px;
+    padding: 50px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+  }
+  
+  .hero-info h1 {
+    font-size: xx-large;
+  color: white;
+  font-weight: 900;
+  }
+  
+  .hero-info p {
+    font-size: small;
+    width: 70%;
+    color: white;
+    font-weight: 400;
+  }
+  .span{
+    font-size: medium;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .boton{
+    color: rgba(12, 1, 1, 0.795);
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 5px 8px;
+  width: fit-content;
+  font-weight: 600;
+  font-size: small;
+  }
+  
+  .img-remera{
+    border-radius: 10px;
+  }
+  
+  .hero-remera{
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .hero-remera-info{
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+  }
+  
+  .hero-remera-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .hero-remera-top h3 {
+    white-space: ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+  }
+  
+  .temporada-verano p{
+    font-size: small;
+  }
+  
+  .hero-remera-abajo {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hero-modelo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .hero-botones{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  #about{
+    text-align: center;
+    margin-top: 70px;
+    max-width: 1000px;
+  }
+  
+  .about-info{
+    font-size: medium;
+    font-weight: 300;
+    color: white;
+  }
+  
