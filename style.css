@@ -173,4 +173,211 @@ main{
     font-weight: 300;
     color: white;
   }
+
+  .footer-links{
+    display: flex;
+    gap: 25px;
+    color: white;
+  }
+
+  .footer-links a{
+    color: white;
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    gap: 20px;
+    margin-top: 40px;
+    border-top: 1px solid whitesmoke;
+
+  }
+
+  .footer p{
+    color: white;
+  }
+  
+  /*INFO REMERA*/
+
+.img-tarjeta{
+  height: 40px;
+  border-radius: 10px;
+}
+#cards{
+  padding: 70px 0;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+#cards h2{
+  font-size:x-large;
+  font-weight: 900;
+  color: white;
+}
+
+.cards-remera {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border-radius:10px ;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+.cards-remera h3{
+  font-size: larger;
+  font-weight: 600;
+}
+.cards-remera p {
+  font-size: medium;
+  font-weight: 400;
+}
+.cards-remera-contenedor{
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+#contacto {
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 40px 200px;
+max-width: 1200;
+}
+
+.ubi{
+  width: 20px;
+  border-radius: 15px;
+}
+
+.footer-contacto{
+  display: flex;
+  gap: 210px;
+  margin-top: 40px;
+}
+
+.footer-datos{
+display: flex;
+gap: 200px;
+margin-top: 15px;
+}
+
+.calle{
+  display: flex;
+  gap: 3px;
+}
+
+.footer-datos2{
+  display: flex;
+  gap: 88px;
+  margin-top: 15px;
+  }
+
+  #contacto h3{
+    font-size: larger;
+  font-weight: 900;
+  color: white;
+  }
+
+  #contacto p{
+    color: white;
+    font-size: medium;
+    font-weight: 400;
+  }
+
+  @media(max-width: 992px) {
+  .hero-remera{
+    display: none;
+  }
+
+  .hero-info{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .about-info {
+    display: none;
+  }
+
+  .cards-remera-contenedor{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contacto h3{
+    font-size: large;
+  }
+  #contacto p{
+    font-size: small;
+    font-weight: 600;
+  }
+  #contacto img{
+    width: 1px 1px;
+  }
+
+  #contacto {
+    padding: 40px;
+  }
+
+  .navbar {
+    gap: 50px;
+  }
+  }
+  
+
+  @media (max-width: 580px) {
+    body {background-color;}
+
+    #contacto {
+      flex-direction: column;
+      padding: 15px;
+      gap: 5px;
+    }
+
+    .footer-datos {
+      gap: 5px 100px;
+      padding: 3px;
+    }
+
+    .footer-datos2 {
+      gap: 5px;
+    }
+
+    .footer-contacto {
+      gap: 115px;
+    }
+
+    .navbar-list {
+      gap: 20px;
+    }
+
+    .navbar {
+      gap: 20px;
+    }
+
+    .header{
+      padding: 10px;
+    }
+
+    .footer-links {
+      flex-direction: column;
+    }
+    
+    }
+
+
+  }
+
+
   
